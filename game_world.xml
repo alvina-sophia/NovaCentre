@@ -1,0 +1,14 @@
+
+<world>
+    <location id="start" description="You are in a small room. There is a door to the north.">
+        <connection to="north" location="hallway"/>
+        <item name="key" description="A small rusty key."/>
+    </location>
+    <location id="hallway" description="You are in a long hallway. There is a room to the south and east.">
+        <connection to="south" location="start"/>
+        <connection to="east" location="library"/>
+    </location>
+    <location id="library" description="You are in a quiet library. There is a hallway to the west.">
+        <connection to="west" location="hallway"/>
+    </location>
+</world>
