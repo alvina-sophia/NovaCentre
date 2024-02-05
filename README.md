@@ -1,2 +1,2 @@
 # NovaCentre
-NovaCentre modular text adventure game engine
+Welcome to the NovaCentre!
